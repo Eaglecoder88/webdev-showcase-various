@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+	  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content=ie=edge">
+		<title> Menu Styylling Page</title>
+		<link rel="stylesheet" href=".css">
+		<link rel="icon" href="faviconPBA.ico">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet"> 
+		<style>
+			
+			/* Navbar Styling is below*/
+			
+			.navbar	{
+				list-style: none;
+				margin:0;
+				padding0;
+				background: pink;
+				border-radius: 5px;
+				overflow: auto;
+			}
+			
+			.navbar li{
+				float: left;
+			}
+			
+			.navbar	li a:hover {
+				background-color: #446190;
+				color: coral;
+			}
+			
+			.navbar	li a {
+				color: purple;
+				display: block;
+				text-decoration: none;
+				padding: 15px 20px;
+			}
+			
+			
+			.navbar	li a:hover {
+				background-color: green;
+				color: coral;
+			}
+			/* Side menu Styling*/
+			
+			.side-menu{
+				list-style: none;
+				border: 1px yellow solid;
+				border-radius: 10px;
+				width: 300px;
+				padding: 20px;
+			}
+			
+			.side-menu li{
+				font-size: 18px;
+				line-height: 2.2em;
+				border-bottom: dotted 8px green;
+			}
+			
+			
+			.side-menu li: last-child {
+				border: none;
+			}
+			
+			.side-menu li a{
+				color: purple ;
+				text-decoration: none;
+			}
+			
+			.side-menu li a: hover	{
+				color: coral;
+			}
+		 </style>
+	 </head>
+			
+		   <ul class="navbar">
+			  <li><a href="#">HOME</a></li>
+			  <li><a href="#">ABOUT</a></li>
+			  <li><a href="#">SERVICES</a></li>
+			  <li><a href="#">CONTACT</a></li>
+			  <li><a href="#">INFORMATION</a></li>
+		   
+		   </ul>
+		   <br>
+		   <br>
+		   
+		   <ul class="side-menu">
+			  <li><a href="#">HOME</a></li>
+			  <li><a href="#">ABOUT</a></li>
+			  <li><a href="#">SERVICES</a></li>
+			  <li><a href="#">CONTACT</a></li>
+			  <li><a href="#">INFORMATION</a></li>
+			</ul>
+	</body>
+</html>
